@@ -3,7 +3,7 @@ class DataProcessor:
     @staticmethod
     def create_chunks(filter_data):
         return [{
-            "summary": entry["summay"],  # Note potential typo in source data
+            "summary": entry["summay"],  
             "judgment_text": entry["judgment"]
         } for entry in filter_data]
 
