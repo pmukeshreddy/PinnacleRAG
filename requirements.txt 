@@ -1,0 +1,6 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+transformers==4.29.0
+torch==2.0.1
+matplotlib
+numpy
